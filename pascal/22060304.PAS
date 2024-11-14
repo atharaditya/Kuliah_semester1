@@ -1,0 +1,33 @@
+program biodata_mahasiswa;
+uses crt;
+var nama,asal,jurusan,TTL,prodi,NIM:string;
+    IPK:real;
+    lama:integer;
+begin
+     clrscr;
+     writeln;
+     writeln('          program biodata mahasiswa');
+     writeln('     ===================================');
+     writeln;
+     write(' Nama             :');readln(nama);
+     write(' NIM              :');readln(NIM);
+     write(' TTL              :');readln(TTL);
+     write(' Asal             :');readln(Asal);
+     write(' Jurusan          :');readln(Jurusan);
+     write(' Program studi    :');readln(Prodi);
+     write(' IPK              :');readln(IPK);
+     writeln;
+     write(' Mohon tunggu sebentar');
+     writeln;
+     lama:=3000;
+     delay(lama);
+     writeln;
+     writeln(' Nama           :', Nama);
+     writeln(' NIM            :', NIM);
+     writeln(' TTL            :', TTL);
+     writeln(' Asal           :', Asal);
+     writeln(' Jurusan        :', Jurusan);
+     writeln(' Program studi  :', Prodi);
+     writeln(' IPK            :', IPK:0:2);
+     readln;
+end.
